@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+
+    <style>
+        .container{
+            height: 350px;
+            max-width: 300px;
+            flex-wrap: wrap;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item{
+            background-color: orangered;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+             align-content: space-between;
+        }   
+</style>
+</head>
+<body>
+
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Aut rerum atque ut mollitia earum qui voluptatibus ipsa.</div>
+        <div class="item">Qui vero provident eos veritatis corrupti nam nihil necessitatibus.</div>
+        <div class="item">Aut tenetur illum aut dolores omnis et pariatur. </div>
+        <div class="item"> Et labore inventore ex fugit iusto et animi quasi vel atque eaque sit accusamus voluptas.</div>
+        <div class="item">Sit vero deleniti officia fugit sed voluptatem eveniet eum praesentium dolores ea quaerat dolor.</div>
+        <div class="item">Est excepturi omnis non totam placeat quo nihil nulla.</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Aut rerum atque ut mollitia earum qui voluptatibus ipsa.</div>
+        <div class="item">Qui vero provident eos veritatis.</div>
+        <div class="item">Aut tenetur illum aut dolores omnis et pariatur.</div>
+        <div class="item"> Et labore inventore ex fugit.</div>
+        <div class="item">Sit vero deleniti officia fugit sed voluptatem.</div>
+        <div class="item">Est excepturi omnis non totam.</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    <p>flex-start</p>
+    <div class="container flex-start">
+        <div class="item">Aut rerum atque ut mollitia earum qui voluptatibus ipsa.</div>
+        <div class="item">Qui vero provident eos veritatis.</div>
+        <div class="item">Aut tenetur illum aut dolores omnis et pariatur.</div>
+        <div class="item"> Et labore inventore ex fugit.</div>
+        <div class="item">Sit vero deleniti officia fugit sed voluptatem.</div>
+        <div class="item">Est excepturi omnis non totam.</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    <p>flex-end</p>
+    <div class="container flex-end">
+        <div class="item">Aut rerum atque ut mollitia earum qui voluptatibus ipsa.</div>
+        <div class="item">Qui vero provident eos veritatis.</div>
+        <div class="item">Aut tenetur illum aut dolores omnis et pariatur.</div>
+        <div class="item"> Et labore inventore ex fugit.</div>
+        <div class="item">Sit vero deleniti officia fugit sed voluptatem.</div>
+        <div class="item">Est excepturi omnis non totam.</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    <p>space-around</p>
+    <div class="container space-around">
+        <div class="item">Aut rerum atque ut mollitia earum qui voluptatibus ipsa.</div>
+        <div class="item">Qui vero provident eos veritatis.</div>
+        <div class="item">Aut tenetur illum aut dolores omnis et pariatur.</div>
+        <div class="item"> Et labore inventore ex fugit.</div>
+        <div class="item">Sit vero deleniti officia fugit sed voluptatem.</div>
+        <div class="item">Est excepturi omnis non totam.</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+    </div>
+    
+    <p>space-between</p>
+    <div class="container space-between">
+        <div class="item">Aut rerum atque ut mollitia earum qui voluptatibus ipsa.</div>
+        <div class="item">Qui vero provident eos veritatis.</div>
+        <div class="item">Aut tenetur illum aut dolores omnis et pariatur.</div>
+        <div class="item"> Et labore inventore ex fugit.</div>
+        <div class="item">Sit vero deleniti officia fugit sed voluptatem.</div>
+        <div class="item">Est excepturi omnis non totam.</div>
+        <div class="item">Lorem ipsum dolor sit amet.</div>
+    </div>
+</body>
+</html>
