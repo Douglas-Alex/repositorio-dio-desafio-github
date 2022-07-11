@@ -87,7 +87,7 @@ Esta propriedade é um atalho ou abreviação de escrita para as propriedades: g
 # Align-self
 É a propriedade que estabelece o alinhamento de modo individual sobre um determinado item.
 
-##                                  Valores possíveis
+##                                   Valores possíveis
 - **auto:** valor padrão,irá respeitar a definição de align-items do container
 - **flex-start:** ao início do container
 - **flex-end:** ao final do container
