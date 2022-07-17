@@ -53,7 +53,7 @@ Permite o alinhamento central no eixo vertical.
 
 # Align-content
 É a propriedade responsável por tratar o alimhamento das linhas do container em relação ao eixo vertical do container.
-Precosamos que:
+Precisamos que:
 
 - O container utilize quebra de linhas
 - A altura do container seja maior que a soma das linhas dos itens
